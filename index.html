@@ -120,14 +120,6 @@
       var resultHtml = "<h4>Hasil Perhitungan:</h4>";
       resultHtml += "<p>BMR (Basal Metabolic Rate): " + bmr.toFixed(2) + " kalori/hari</p>";
       resultHtml += "<p>Kebutuhan Kalori Per Hari (dengan faktor aktivitas): " + totalCalories.toFixed(2) + " kalori</p>";
-      resultHtml += "<p><strong>Penjelasan Tingkat Aktivitas Harian:</strong></p>";
-      resultHtml += "<ul>";
-      resultHtml += "<li><strong>Sangat Ringan (1.2):</strong> Tidak beraktivitas fisik.</li>";
-      resultHtml += "<li><strong>Ringan (1.375):</strong> Beraktivitas fisik ringan 1-3 hari per minggu.</li>";
-      resultHtml += "<li><strong>Sedang (1.55):</strong> Beraktivitas fisik sedang 3-5 hari per minggu.</li>";
-      resultHtml += "<li><strong>Berat (1.725):</strong> Beraktivitas fisik berat 6-7 hari per minggu.</li>";
-      resultHtml += "<li><strong>Sangat Berat (1.9):</strong> Beraktivitas fisik sangat berat, olahraga intensif setiap hari.</li>";
-      resultHtml += "</ul>";
 
       $("#result").html(resultHtml);
     }
